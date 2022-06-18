@@ -2,8 +2,16 @@ import React from "react"
 
 export default function Form(){
     return(
-        <header>
-            <h1>Form</h1>
-        </header>
+        <form className="form">
+           <input 
+                type="text"
+                placeholder="Top Text"
+                className="form--input"/>
+           <input 
+                type="text"
+                placeholder="Bottom Text"
+                className="form--input"/>
+           <button className="form--button">Get a new meme image</button>
+        </form>
     )
 }
