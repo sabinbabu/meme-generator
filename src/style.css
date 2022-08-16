@@ -33,3 +33,7 @@ body{
     color: white;
     border-radius: 5px;
 }
+
+.form--image{
+    max-width: 100%;
+}
